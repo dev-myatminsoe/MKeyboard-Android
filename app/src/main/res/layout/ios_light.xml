@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.myatminsoe.mkeyboard.MyKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#d3d3dd"
+    android:keyBackground="@drawable/ios_light"
+    android:keyPreviewLayout="@layout/preview"
+    android:keyPreviewOffset="0dp"
+    android:keyTextColor="#1F1F21"
+    android:keyTextSize="18sp"
+    android:shadowColor="@android:color/transparent" />

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="key_normal">50dp</dimen>
+    <dimen name="key_bottom">45dp</dimen>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    android:keyWidth="10%p"
+    android:keyHeight="@dimen/key_normal"
+    android:verticalGap="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyLabel="1" />
+        <Key
+            android:codes="50"
+            android:keyLabel="2" />
+        <Key
+            android:codes="51"
+            android:keyLabel="3" />
+        <Key
+            android:codes="52"
+            android:keyLabel="4" />
+        <Key
+            android:codes="53"
+            android:keyLabel="5" />
+        <Key
+            android:codes="54"
+            android:keyLabel="6" />
+        <Key
+            android:codes="55"
+            android:keyLabel="7" />
+        <Key
+            android:codes="56"
+            android:keyLabel="8" />
+        <Key
+            android:codes="57"
+            android:keyLabel="9" />
+        <Key
+            android:codes="48"
+            android:keyEdgeFlags="right"
+            android:keyLabel="0" />
+    </Row>
+    <Row>
+        <Key
+            android:keyEdgeFlags="left"
+            android:codes="45"
+            android:keyLabel="-" />
+        <Key
+            android:codes="47"
+            android:keyLabel="/" />
+        <Key
+            android:codes="58"
+            android:keyLabel=":" />
+        <Key
+            android:codes="59"
+            android:keyLabel=";" />
+        <Key
+            android:codes="40"
+            android:keyLabel="(" />
+        <Key
+            android:codes="41"
+            android:keyLabel=")" />
+        <Key
+            android:codes="36"
+            android:keyLabel="$" />
+        <Key
+            android:codes="38"
+            android:keyLabel="&amp;" />
+        <Key
+            android:codes="64"
+            android:keyLabel="\@" />
+
+        <Key
+            android:codes="34"
+            android:keyLabel="&quot;"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key
+            android:keyWidth="13%p"
+            android:codes="-1"
+            android:keyEdgeFlags="left"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyLabel="#+=" />
+        <Key
+            android:keyWidth="14.8%p"
+            android:codes="46"
+            android:keyLabel="." />
+        <Key
+            android:keyWidth="14.8%p"
+            android:codes="44"
+            android:keyLabel="," />
+        <Key
+            android:keyWidth="14.8%p"
+            android:codes="63"
+            android:keyLabel="\?" />
+        <Key
+            android:keyWidth="14.8%p"
+            android:codes="33"
+            android:keyLabel="!" />
+        <Key
+            android:keyWidth="14.8%p"
+            android:codes="39"
+            android:keyLabel="'" />
+
+        <Key
+            android:keyWidth="13%p"
+            android:codes="-5"
+            android:keyEdgeFlags="right"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/sym_keyboard_delete" />
+
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+
+        <Key
+            android:keyHeight="@dimen/key_bottom"
+            android:keyWidth="13%p"
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="abc" />
+
+        <Key
+            android:keyHeight="@dimen/key_bottom"
+            android:keyWidth="12%p"
+            android:codes="-100"
+            android:keyIcon="@drawable/sym_keyboard_language_switch" />
+        <Key
+            android:keyHeight="@dimen/key_bottom"
+            android:keyWidth="60%p"
+            android:codes="32"
+            android:keyLabel="space" />
+
+        <Key
+            android:keyHeight="@dimen/key_bottom"
+            android:keyWidth="15%p"
+            android:codes="-4"
+            android:keyEdgeFlags="right"
+            android:keyLabel="Go" />
+    </Row>
+</Keyboard>
